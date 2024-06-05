@@ -79,7 +79,7 @@ public class Main {
         Cat[] cats = new Cat[3];
         for (int i = 0; i < cats.length; i++) {
             cats[i] = new Cat();
-            cats[i].eat(5);
+            cats[i].eat(500000000);
         }
 
         for (Cat cat : cats) {
@@ -87,7 +87,7 @@ public class Main {
         }
 
         Dog dog = new Dog();
-        dog.run(300);
+        dog.run(228);
         dog.swim(5);
 
         System.out.println("Количество созданных котов: " + Cat.getCount());
